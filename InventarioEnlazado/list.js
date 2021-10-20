@@ -17,6 +17,8 @@ export default class List{
 
       item.next = current.next
       current.next = item
+      this.length += 1
+      return item
     }
     
     add(item){
@@ -31,6 +33,7 @@ export default class List{
       }
 
       this.length += 1
+      return item
     }
 
     delete(code){
