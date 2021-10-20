@@ -1,0 +1,39 @@
+<style>
+
+
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+    </style>
+    
+    <h1>Control de inventario</h1>
+    <div id='app'>
+      <form>
+        <label for="txtCode">
+          Código:<input type='number' id='txtCode'>
+        </label>
+        <label for="txtName">
+          Nombre:<input type='text' id='txtName'>
+        </label>
+        <label for="qxtQuantity">
+          Cantidad:<input type='number' id='txtQuantity'>
+        </label>
+        <label for="txtCost">
+          Costo:<input type='number' id='txtCost'>
+        <label for="txtPos">
+          Posición:<input type='number' id='txtPos'>
+        </label>
+        <button type='button' id='btnAdd'>Agregar</button>
+        <button type='button' id='btnSearch'>Buscar</button>
+        <button type='button' id='btnDelete'>Borrar</button>
+        <button type='button' id='btnList'>Listar</button>
+        <button type='button' id='btnInverseList'>Listado inverso</button>
+        <button type='button' id='btnInsert'>Insertar</button>
+        <button type='reset'>Cancelar</button>
+      </form>
+      <div id='detalles'>
+        <div></div>
+      </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
